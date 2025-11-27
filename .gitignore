@@ -1,0 +1,23 @@
+# --- System ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- Environments ---
+.venv/
+env/
+venv/
+
+# --- Secrets (CRITICAL) ---
+.env
+*.json 
+
+# --- Data (CRITICAL) ---
+# We generally do not commit datasets to Git, especially large ones
+data/
+*.csv
+*.parquet
+*.xlsx
+# --- IDEs ---
+.vscode/
+.idea/
